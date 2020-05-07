@@ -1,9 +1,13 @@
 import React from 'react'
+import '../../styles/home.css'
 
 function Home() {
     return (
-        <div>
-            <h1>Home page</h1>
+        <div class="banner_container">
+            <div class="banner">
+               <h1>Hi, I'm Chinedu Emesue</h1>
+               <h1>Full Stack Web Developer</h1>
+            </div>
         </div>
     )
 }

@@ -1,0 +1,14 @@
+.card{
+    background-color: rgb(27, 27, 27);
+    border-radius: 0px;
+}
+
+.footer_link li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer_link li > a:hover{
+    text-decoration: none !important;
+}

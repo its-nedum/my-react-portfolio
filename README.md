@@ -27,9 +27,9 @@ Content
 
 You must have the following pages:
 
-    A homepage that features your name and a small greeting. This greeting can be in your own voice (ex. "Welcome to my website! I'm a developer, designer, and dog-lover"), or it can be third-person explanatory. Whatever you like. You simply want to grab people's attention!
-    An about page that features information about your educational experience (you can cite OpenClassrooms!) and your work history if you have some. You can write paragraphs or present your information in a list form. If you want to include other information about yourself, feel free.
-    A contact page that lets people know the best way to get in touch with you. You can build a functional contact form or simply display your email address and social media links.
+  - A homepage that features your name and a small greeting. This greeting can be in your own voice (ex. "Welcome to my website! I'm a developer, designer, and dog-lover"), or it can be third-person explanatory. Whatever you like. You simply want to grab people's attention!
+  - An about page that features information about your educational experience (you can cite OpenClassrooms!) and your work history if you have some. You can write paragraphs or present your information in a list form. If you want to include other information about yourself, feel free.
+  - A contact page that lets people know the best way to get in touch with you. You can build a functional contact form or simply display your email address and social media links.
     Other pages may also be included but are optional.
 
 Hosting

@@ -1,0 +1,22 @@
+.banner_container{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/welcome.png) top center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 90px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+}
