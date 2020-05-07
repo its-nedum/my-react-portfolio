@@ -3,12 +3,16 @@
     border-radius: 0px;
 }
 
-.footer_link li{
+.social_links li{
     display: inline;
     text-decoration: none;
     margin-right: 20px;
 }
 
-.footer_link li > a:hover{
+.social_links li > a:hover{
     text-decoration: none !important;
+}
+
+.social_links li i{
+    color: white;
 }
