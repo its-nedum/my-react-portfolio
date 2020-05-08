@@ -1,7 +1,7 @@
 .banner_container{
     width: 100%;
     height: 100vh;
-    background: url(../images/welcome.png) top center;
+    background: url(../images/about.jpg) top center;
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -11,7 +11,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    top: 90px;
+    top: -200px;
     right: 0;
     display: flex;
     justify-content: center;
@@ -19,4 +19,17 @@
     flex-direction: column;
     text-align: center;
     padding: 0 15px;
+}
+
+.intro_name{
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    font-size: 56px;
+    margin-bottom: 0px;
+}
+
+.intro_info{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
