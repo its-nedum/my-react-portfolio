@@ -6,9 +6,9 @@ function Footer() {
     return (
         <div className="footer">
             <div className="card">
-            <div class="card-body">
+            {/* <div class="card-body">
             
-            </div>
+            </div> */}
             <div className="card-footer text-muted text-center">
                 <p>All material &copy; Chinedu Emesue 2020</p>
                 <ul className="social_links"> 
