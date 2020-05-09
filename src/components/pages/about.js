@@ -9,19 +9,20 @@ function About() {
                 <div className="first_banner">
                     <div className="container">
                         <div className="row">
-                            <div className="col-sm-12 col-md-7 about_container">
+                            <div className="col-sm-12 col-md-7 col-lg-7 about_container">
                                 <h2>ABOUT ME</h2>
                                     <img src={chinedu} width="100" height="100" className="chinedu_pic" alt="Chinedu Emesue" />
                                 <p className="about_text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas debitis dolore illo sint fuga. Maxime debitis sed placeat fugiat eum minus? Odio repellat reprehenderit alias error ipsum doloribus minus consequatur.
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit accusantium cupiditate fugiat ducimus delectus esse optio dicta aliquid, debitis, temporibus voluptates consequatur ad ullam labore doloribus dolore. Repudiandae, rerum suscipit?
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia maiores quos magni repellat blanditiis suscipit! Magni, aut commodi modi a sint animi cupiditate tenetur, similique ea molestias fuga! Temporibus, aspernatur!
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis vero reprehenderit dolores porro iure error atque molestias exercitationem dolorum nostrum, delectus, enim assumenda distinctio facere numquam ipsa provident. Distinctio, magni!
+                                A full stack web developer with 4 years experience in software development. A critical thinker and fast learner experienced in achieving concrete goals on a strict deadline with vast knowledge of software development and its operations.
                                 </p>
+                                <div className="social_links">
+                                <a href="https://github.com/its-nedum" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+                                <a href="https://www.twitter.com/its_nedum" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/chinedu-emesue" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+                                <a href="https://www.facebook.com/itsnedum" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i></a>
+                                </div>
                             </div>
-                            {/* <div className="col-sm-12 col-md-4 test">
-                                Section 
-                            </div> */}
+                           
                         </div>
                     </div>
                 </div>

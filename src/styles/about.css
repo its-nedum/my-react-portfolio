@@ -1,10 +1,20 @@
 .first_container{
     width: 100%;
     height: 100vh;
-    background: url(../images/about.jpg) top center;
+    background: url(../images/about.png) top center;
     background-size: cover;
     overflow: hidden;
     position: relative;
+}
+
+.first_container::before {
+    content: "";
+    background: rgba(6, 12, 34, 0.8);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .first_banner{
@@ -17,47 +27,59 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
     padding: 0 15px;
 }
 
 .about_container {
     position: relative;
-    bottom: 200px;
-    top: -50px;
-    border: 2px red solid;
+    bottom: 0px;
+    top: 0px;
+    border-left: 2px red solid;
+    border-bottom: 2px orange solid;
+    border-right: 2px red solid;
+
 }
 
 .about_container h2 {
-        font-family: Gotham XNarrow A,Gotham XNarrow B,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+        font-family:"Raleway", sans-serif;
         text-transform: uppercase;
         font-weight: 500;
         font-style: normal;
-        color: #000;
+        color: #fff;
         font-size: 40px;
         margin-bottom: 20px;
+        border-bottom: 2px orange solid;
     }
 
 
 .about_text {
-    font-size: 16px;
-    border: 2px black solid;
+    font-size: 18px;
+    color: #fff;
 }
 
-.about_image {
+.social_links {
+    float: right;
+    margin-bottom: 10px;
+}
+.social_links a {
+    display: inline;
+    text-decoration: none;
+    margin-right: 20px;
     
 }
-
+.social_links a i {
+    color: white;
+    font-size: 24px;
+}
 .chinedu_pic {
     border-radius: 100px;
     box-shadow: 0 0 0 1px #000;
     float: left;
     margin: 10px 30px 30px 10px;
-    opacity: .7;
-    /* box-sizing: border-box;
-    line-height: 1.7; */
+    opacity: 0.7;
     border-style: none;
 }
+
 .second_container{
     width: 100%;
     height: 100vh;
