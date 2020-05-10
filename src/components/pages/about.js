@@ -10,7 +10,7 @@ function About() {
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-12 col-md-7 col-lg-7 about_container">
-                                <h2>ABOUT ME</h2>
+                                <h2>About me</h2>
                                     <img src={chinedu} width="100" height="100" className="chinedu_pic" alt="Chinedu Emesue" />
                                 <p className="about_text">
                                 A full stack web developer with 4 years experience in software development. A critical thinker and fast learner experienced in achieving concrete goals on a strict deadline with vast knowledge of software development and its operations.
@@ -26,16 +26,15 @@ function About() {
                     </div>
                 </div>
             </div>
-            {/* Education and Work Experience */}
+            
             <div className="eduwork_container">
                 <div className="container-fluid">
                     <div className="row">
-                        {/* Education start here */}
-                        <div className="col-sm-12 col-md-6">
-                            <div className="row">
-                                <div className="col-sm-12 col-md-2 heading">
-                                    <h2>Educational Experience</h2>
-                                </div>
+                        <div className="col-sm-12 heading">
+                                <h2>Work History</h2>
+                        </div>
+                    </div>
+                        <div className="row">
                                 <div className="col-sm-12 col-md-9">
                                 <table className="table table-striped table-dark">
                                     <thead>
@@ -68,18 +67,9 @@ function About() {
                                     </tbody>
                                     </table>
                                 </div>
-                            </div>
-                        </div>
-                        {/* Education ends here */}
-                        {/* Work Experience start here */}
-                        <div className="col-sm-12 col-md-6">
-                            <div className="">
-                                <h2>Work History</h2>
-                            </div>
-                            <div className="table">
-
-                            </div>
-                        </div>
+                            
+                        {/* Work history ends here */}
+                        
                     </div>
                 </div>
             </div>

@@ -90,15 +90,16 @@
 }
 
 .heading h2 {
-    transform: rotate(90deg);
-    
+    font-family:"Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: normal;
+    color: #000;
+    font-size: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px orange solid;
 }
 
-@media (max-width: 767px){
-    .heading h2 {
-        transform: rotate(360deg);  
-    }  
-}
 
 .projects_container {
     width: 100%;
