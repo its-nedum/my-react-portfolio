@@ -28,48 +28,47 @@ function About() {
             </div>
             
             <div className="eduwork_container">
-                <div className="container-fluid">
+                <div className="container">
                     <div className="row">
                         <div className="col-sm-12 heading">
                                 <h2>Work History</h2>
                         </div>
                     </div>
-                        <div className="row">
-                                <div className="col-sm-12 col-md-9">
-                                <table className="table table-striped table-dark">
-                                    <thead>
-                                        <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                        <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                        </tr>
-                                        <tr>
-                                        <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
-                                        </tr>
-                                        <tr>
-                                        <th scope="row">3</th>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
-                                        </tr>
-                                    </tbody>
-                                    </table>
-                                </div>
-                            
-                        {/* Work history ends here */}
-                        
+                    <div className="row">
+                        <div className="col-sm-12 col-md-6 sectionOne">
+                            <p className="position">
+                                <span className="icon">&#8594;</span> 
+                                    IT Engineer and Traffic Officer <br/>
+                                    <span className="company">Hot 98.3 FM Abuja </span><i className="duration">February 2020 – till date</i>
+                            </p>
+                            <p className="position">
+                                <span className="icon">&#8594;</span> 
+                                Information Technology Support Engineer <br/>
+                                    <span className="company">Global Access Providers and Network </span><i className="duration">March 2019 – January 2020</i>
+                            </p>
+                            <p className="position">
+                                <span className="icon">&#8594;</span> 
+                                Website Developer <br/>
+                                    <span className="company">E-plus Network, Lafia </span><i className="duration">October 2018 – February 2019</i>
+                            </p>
+                        </div>
+                        <div className="col-sm-12 col-md-6 sectionTwo">
+                            <p className="position">
+                                <span className="icon">&#8594;</span> 
+                                Mathematics and Computer Studies Tutor (NYSC) <br/>
+                                    <span className="company">Government Secondary School Agba </span><i className="duration">December 2017 – October 2018</i>
+                            </p>
+                            <p className="position">
+                                <span className="icon">&#8594;</span> 
+                                IT Support (Internship) <br/>
+                                    <span className="company">Global Access Provider and Networks </span><i className="duration">March 2016 – October 2016</i>
+                            </p>
+                            <p className="position">
+                                <span className="icon">&#8594;</span> 
+                                Computer Operator <br/>
+                                    <span className="company">BII Computer Institute </span><i className="duration">February 2011 – July 2011</i>
+                            </p>
+                        </div>    
                     </div>
                 </div>
             </div>

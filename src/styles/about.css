@@ -99,7 +99,43 @@
     margin-bottom: 20px;
     border-bottom: 2px orange solid;
 }
+.sectionOne .icon {
+    font-size: 24px;
+    color: red;
+}
+.sectionOne .company {
+    margin-left: 23px;
+}
+.sectionOne .duration {
+    float: right;
+}
+.sectionOne p {
+    font-family: 'Wotfard',Futura,-apple-system,sans-serif;
+    
+}
+.sectionTwo {
+    border-left: 2px red solid;
+}
+.sectionTwo .icon {
+    font-size: 24px;
+    color: red;
+}
+.sectionTwo .company {
+    margin-left: 23px;
+}
+.sectionTwo .duration {
+    float: right;
+}
+.sectionTwo p {
+    font-family: 'Wotfard',Futura,-apple-system,sans-serif;
+    
+}
 
+@media (max-width:767px){
+    .sectionTwo {
+        border-left: none;
+    }
+}
 
 .projects_container {
     width: 100%;
