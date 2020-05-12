@@ -4,7 +4,6 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import About from './components/pages/about';
 import Home from './components/pages/home';
 import Contact from './components/pages/contact';
-import Project from './components/pages/projects';
 import Navbar from './components/header/navbar';
 import Footer from './components/footer/footer';
 
@@ -17,7 +16,6 @@ class App extends React.Component {
       <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />
-          <Route path='/projects' component={Project} />
           <Route path='/contact' component={Contact} />
       </Switch>
       <Footer />

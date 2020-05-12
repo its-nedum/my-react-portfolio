@@ -1,7 +1,7 @@
 .banner_container{
     width: 100%;
     height: 100vh;
-    background: url(../images/welcome.jpg) top center;
+    /* background: url(../images/welcome.jpg) top center; */
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -36,4 +36,16 @@
 
 .chinedu_img {
     border-radius: 100px;
+    margin-top: 200px;
 }
+
+/*  */
+.projects {
+    background-color: #fff;
+}
+
+.feat_project {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
