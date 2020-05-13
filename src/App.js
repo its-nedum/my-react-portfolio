@@ -11,6 +11,9 @@ import Angelacademy from './components/projects/angelacademy'
 import Kickoutdiabetes from './components/projects/kickoutdiabetes'
 import Nsjsc from './components/projects/nsjsc'
 import Teamwork from './components/projects/teamwork'
+import Notifyme from './components/projects/notifyme'
+import Posttimes from './components/projects/posttimes'
+import Todo from './components/projects/todo'
 
 class App extends React.Component {
   render(){
@@ -28,6 +31,9 @@ class App extends React.Component {
           <Route exact path='/projects/kickout-diabetes' component={Kickoutdiabetes} />
           <Route exact path='/projects/nsjsc' component={Nsjsc} />
           <Route exact path='/projects/teamwork-app' component={Teamwork} />
+          <Route exact path='/projects/notify-me' component={Notifyme} />
+          <Route exact path='/projects/post-times' component={Posttimes} />
+          <Route exact path='/projects/todo' component={Todo} />
       </Switch>
       {/* <Footer /> */}
     </div>
