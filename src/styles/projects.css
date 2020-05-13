@@ -7,9 +7,9 @@
     margin-top: 100px;
 }
 
-.tech_used {
+.tech_used p {
     list-style: none;
-font-family: Mono,monospace;
-grid-column: 1/6;
+    font-family: Mono,monospace;
+    grid-column: 1/6;
 
 }
