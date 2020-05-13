@@ -8,6 +8,9 @@ import Navbar from './components/header/navbar';
 import Christianconnect from './components/projects/christianconnect'
 import Esmartcards from './components/projects/esmartcards'
 import Angelacademy from './components/projects/angelacademy'
+import Kickoutdiabetes from './components/projects/kickoutdiabetes'
+import Nsjsc from './components/projects/nsjsc'
+import Teamwork from './components/projects/teamwork'
 
 class App extends React.Component {
   render(){
@@ -22,6 +25,9 @@ class App extends React.Component {
           <Route exact path='/projects/christian-connect' component={Christianconnect} />
           <Route exact path='/projects/esmartcards' component={Esmartcards} />
           <Route exact path='/projects/angel-academy' component={Angelacademy} />
+          <Route exact path='/projects/kickout-diabetes' component={Kickoutdiabetes} />
+          <Route exact path='/projects/nsjsc' component={Nsjsc} />
+          <Route exact path='/projects/teamwork-app' component={Teamwork} />
       </Switch>
       {/* <Footer /> */}
     </div>
