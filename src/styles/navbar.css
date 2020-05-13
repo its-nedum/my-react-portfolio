@@ -1,3 +1,15 @@
 .nav-link{
     text-transform: uppercase;
 }
+
+/* nav {
+    background-color: #000;
+} */
+
+a {
+    color: #fff;
+}
+
+/* .navbar-toggler-icon {
+    color: #fff;
+} */

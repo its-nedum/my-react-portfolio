@@ -11,6 +11,7 @@ import notifyme from '../../images/notify-me.png'
 import posttimes from '../../images/post-times.png'
 import todo from '../../images/todo.png'
 import {Link} from 'react-router-dom'
+import Footer from '../footer/home_footer'
 
 
 function Home() {
@@ -118,6 +119,7 @@ function Home() {
                 </div>
             </div>
         </div>
+        <Footer />
         </div>
     )
 }

@@ -1,6 +1,11 @@
 .card{
-    background-color: rgb(27, 27, 27);
+    background-color: #000;
     border-radius: 0px;
+}
+
+.apart {
+    border-top: 5px solid #fff;
+    /* background-color: rgb(27, 27, 27); */
 }
 
 .social_link li{
@@ -20,4 +25,10 @@
 
 ul {
     text-align: center;
+}
+
+.clients {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
 }

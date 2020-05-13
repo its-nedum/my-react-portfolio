@@ -13,3 +13,7 @@
     grid-column: 1/6;
 
 }
+
+p a {
+    color: cornflowerblue;
+}

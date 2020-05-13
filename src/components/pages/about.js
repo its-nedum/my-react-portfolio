@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../styles/about.css'
 import chinedu from '../../images/chinedu.jpg'
+import Footer from '../footer/footer'
 
 function About() {
     return (
@@ -77,6 +78,7 @@ function About() {
                 
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }

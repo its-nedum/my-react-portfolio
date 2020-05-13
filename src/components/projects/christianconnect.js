@@ -1,6 +1,7 @@
 import React from 'react'
 import img from '../../images/christianconnect.png'
 import '../../styles/projects.css'
+import Footer from '../footer/footer'
 
 function christianconnect() {
     return (
@@ -16,13 +17,14 @@ function christianconnect() {
                     <p>Frontend: React.js, Redux</p>
                     <p>Backend: Node.js, Express, Websocket - Socket.io</p>
                     <p>Database: PostgreSQL</p>
-                    <p>Url: <a href="https://christian-connect.herokuapp.com/" rel="noopener noreferrer" target="_blank">Click Here</a></p>
+                    <p>Website: <a href="https://christian-connect.herokuapp.com/" rel="noopener noreferrer" target="_blank">Click Here</a></p>
                     </div>
                     <div className="col-sm-12 col-md-3 app_image">
                         <img src={img} alt="christian-connect" className="img-fluid" />
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
