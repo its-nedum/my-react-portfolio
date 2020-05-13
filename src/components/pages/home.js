@@ -41,7 +41,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-4">
-                        <Link to="/projects/esmartcard">
+                        <Link to="/projects/esmartcards">
                             <img src={esmartcard} alt="project 2" className="img-fluid" />
                         </Link>
                         <div className="project_description">

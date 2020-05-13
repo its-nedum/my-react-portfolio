@@ -2,15 +2,12 @@
     width: 100%;
     height: 100vh;
     background-size: cover;
-    overflow: hidden;
     position: relative;
     margin-top: 100px;
 }
 
-.tech_used p {
-    list-style: none;
+.tech_used, .app_description {
     font-family: Mono,monospace;
-    grid-column: 1/6;
 
 }
 

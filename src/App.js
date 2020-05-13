@@ -5,8 +5,9 @@ import About from './components/pages/about';
 import Home from './components/pages/home';
 import Contact from './components/pages/contact';
 import Navbar from './components/header/navbar';
-// import Footer from './components/footer/home_footer';
 import Christianconnect from './components/projects/christianconnect'
+import Esmartcards from './components/projects/esmartcards'
+import Angelacademy from './components/projects/angelacademy'
 
 class App extends React.Component {
   render(){
@@ -18,7 +19,9 @@ class App extends React.Component {
           <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />
           <Route path='/contact' component={Contact} />
-          <Route path='/projects/christian-connect' component={Christianconnect} />
+          <Route exact path='/projects/christian-connect' component={Christianconnect} />
+          <Route exact path='/projects/esmartcards' component={Esmartcards} />
+          <Route exact path='/projects/angel-academy' component={Angelacademy} />
       </Switch>
       {/* <Footer /> */}
     </div>
