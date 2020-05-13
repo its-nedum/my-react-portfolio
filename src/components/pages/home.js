@@ -34,16 +34,28 @@ function Home() {
                         <Link to="/projects/christian-connect">
                             <img src={christianconnect} alt="project 1" className="img-fluid" />
                         </Link>
+                        <div className="project_description">
+                            <h4>Christian Connect</h4>
+                            <p>Web Application</p>
+                        </div>
                     </div>
                     <div className="col-sm-12 col-md-4">
                         <Link to="/projects/esmartcard">
                             <img src={esmartcard} alt="project 2" className="img-fluid" />
                         </Link>
+                        <div className="project_description">
+                            <h4>Esmartcards</h4>
+                            <p>Web Application</p>
+                        </div>
                     </div>
                     <div className="col-sm-12 col-md-4">
                         <Link to="/projects/angel-academy">
                             <img src={angelacademy} alt="project 3" className="img-fluid" />
                         </Link>
+                        <div className="project_description">
+                            <h4>Angel Academy</h4>
+                            <p>Web Application</p>
+                        </div>
                     </div> 
                 </div>
                 <div className="row pro_sec2">
@@ -51,16 +63,28 @@ function Home() {
                         <Link to="/projects/kickout-diabetes">
                             <img src={diabetes} alt="project 4" className="img-fluid" />
                         </Link>
+                        <div className="project_description">
+                            <h4>Kick Out Diabetes</h4>
+                            <p>Web Application</p>
+                        </div>
                     </div>
                     <div className="col-sm-12 col-md-4">
                         <Link to="/projects/nsjsc">
                             <img src={nsjsc} alt="project 5" className="img-fluid" />
                         </Link>
+                        <div className="project_description">
+                            <h4>NSJSC</h4>
+                            <p>Web Application</p>
+                        </div>
                     </div>
                     <div className="col-sm-12 col-md-4">
                         <Link to="/projects/teamwork-app">
                             <img src={teamwork} alt="project 6" className="img-fluid" />
                         </Link>
+                        <div className="project_description">
+                            <h4>Teamwork App</h4>
+                            <p>Web Application</p>
+                        </div>
                     </div>
                 </div>
                 <div className="row">
@@ -68,16 +92,28 @@ function Home() {
                         <Link to="/projects/notify-me">
                             <img src={notifyme} alt="project 7" className="img-fluid" />
                         </Link>
+                        <div className="project_description">
+                            <h4>Notify Me</h4>
+                            <p>Web Application</p>
+                        </div>
                     </div>
                     <div className="col-sm-12 col-md-4">
                         <Link to="/projects/post-times">
                             <img src={posttimes} alt="project 8" className="img-fluid" />
                         </Link>
+                        <div className="project_description">
+                            <h4>Post Times</h4>
+                            <p>Web Application</p>
+                        </div>
                     </div>
                     <div className="col-sm-12 col-md-4">
                         <Link to="/projects/todo">
                             <img src={todo} alt="project 8" className="img-fluid" />
                         </Link>
+                        <div className="project_description">
+                            <h4>To Do List App</h4>
+                            <p>Web Application</p>
+                        </div>
                     </div>
                 </div>
             </div>

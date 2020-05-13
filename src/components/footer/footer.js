@@ -10,7 +10,7 @@ function Footer() {
             
             </div> */}
             <div className="card-footer text-muted text-center">
-                <p>All material &copy; Chinedu Emesue 2020</p>
+                <p>&copy; 2020 CHINEDU EMESUE, ALL RIGHTS RESERVED </p>
                 <ul className="social_link"> 
                     <li><i className="fab fa-github"></i><a href="https://github.com/its-nedum" target="_blank" rel="noopener noreferrer"> Github</a></li>
                     <li><i className="fab fa-twitter"></i><a href="https://www.twitter.com/its_nedum" target="_blank" rel="noopener noreferrer"> Twitter</a></li>

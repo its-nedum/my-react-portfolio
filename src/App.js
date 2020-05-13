@@ -6,6 +6,7 @@ import Home from './components/pages/home';
 import Contact from './components/pages/contact';
 import Navbar from './components/header/navbar';
 import Footer from './components/footer/footer';
+import Christianconnect from './components/projects/christianconnect'
 
 class App extends React.Component {
   render(){
@@ -17,6 +18,7 @@ class App extends React.Component {
           <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />
           <Route path='/contact' component={Contact} />
+          <Route path='/projects/christian-connect' component={Christianconnect} />
       </Switch>
       <Footer />
     </div>
