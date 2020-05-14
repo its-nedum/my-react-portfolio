@@ -68,7 +68,7 @@ function About() {
                         <h3 className="heading">Academic Qualification</h3>
                     </div>
                     <div className="col-sm-12 col-md-7">
-                        <p className="company">Openclassrooms <span className="duration">2020 - 2021</span></p>
+                        <p className="company">OpenClassrooms <span className="duration">2020 - 2021</span></p>
                         <p className="position">Diploma in Full Stack Web Development</p> 
 
                         <p className="company">Anambra State University, Uli <span className="duration">2013 - 2017</span></p>

@@ -1,10 +1,13 @@
 import React from 'react'
 import Footer from '../footer/footer'
+import '../../styles/contact.css'
 
 function Contact() {
     return (
-        <div>
-            <h1>Contact Page</h1>
+        <div className="contact_container">
+            <div className="container">
+            
+            </div>
             <Footer />
         </div>
     )
