@@ -10,7 +10,7 @@ function About() {
             <div className="aboutme_container container">
                 <div className="row">
                     <div className="col-sm-12 col-md-5">
-                        <h3>About Me</h3>
+                        <h3 className="heading">About Me</h3>
                     </div>
                     <div className="col-sm-12 col-md-7">
                         <img src={chinedu} width="100" height="100" className="chinedu_pic" alt="Chinedu Emesue" />
@@ -34,14 +34,14 @@ function About() {
             </div>
 
             {/* Work Experience */}
-            <div className="container">
+            <div className="work_container container">
                 <div className="row work_exp">
                     <div className="col-sm-12 col-md-7 work_details">
                         <p className="company">Hot 98.3 FM Abuja <span className="duration">2020 - Present</span></p>
                         <p className="position">IT Engineer and Traffic Officer</p>  
 
                         <p className="company">Middleware ICT Solutions <span className="duration">2019 - Present</span></p>
-                        <p className="position">Freelancer</p>
+                        <p className="position">Freelance Software Engineer</p>
 
                         <p className="company">Global Access Providers and Networks <span className="duration">2019 - 2020</span></p>
                         <p className="position">IT Support Engineer</p> 
@@ -49,26 +49,30 @@ function About() {
                         <p className="company">E-plus Network <span className="duration">2018 - 2019</span></p>
                         <p className="position">Website Developer</p>
 
-                        <p className="company">Government Sec. School Agba <span className="duration">2018 - 2018</span></p>
+                        <p className="company">Government Sec. School Agba <span className="duration">2017 - 2018</span></p>
                         <p className="position">Mathematics and Computer Studies Tutor</p>  
 
                         <p className="company">Global Access Providers and Networks <span className="duration">2016 - 2016</span></p>
                         <p className="position">IT Support Intern</p> 
                     </div>
                     <div className="col-sm-12 col-md-5 work_intro">
-                        <h3>Work Experience</h3>
+                        <h3 className="heading">Work Experience</h3>
                     </div>
                 </div>
             </div>
 
             {/* Academic Qualification */}
-            <div className="container">
+            <div className="acad_container container">
                 <div className="row">
                     <div className="col-sm-12 col-md-5">
-                        <h3>Academic Qualification</h3>
+                        <h3 className="heading">Academic Qualification</h3>
                     </div>
                     <div className="col-sm-12 col-md-7">
+                        <p className="company">Openclassrooms <span className="duration">2020 - 2021</span></p>
+                        <p className="position">Diploma in Full Stack Web Development</p> 
 
+                        <p className="company">Anambra State University, Uli <span className="duration">2013 - 2017</span></p>
+                        <p className="position">Bachelor of Science (B.Sc) Computer Science</p> 
                     </div>
                 </div>
             </div>
