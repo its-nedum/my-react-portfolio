@@ -38,22 +38,22 @@ function About() {
                 <div className="row work_exp">
                     <div className="col-sm-12 col-md-7 work_details">
                         <p className="company">Hot 98.3 FM Abuja <span className="duration">2020 - Present</span></p>
-                        <p className="postion">IT Engineer and Traffic Officer</p>  
+                        <p className="position">IT Engineer and Traffic Officer</p>  
 
                         <p className="company">Middleware ICT Solutions <span className="duration">2019 - Present</span></p>
-                        <p className="postion">Freelancer</p>
+                        <p className="position">Freelancer</p>
 
-                        <p className="company">GAP Networks <span className="duration">2019 - 2020</span></p>
-                        <p className="postion">IT Support Engineer</p> 
+                        <p className="company">Global Access Providers and Networks <span className="duration">2019 - 2020</span></p>
+                        <p className="position">IT Support Engineer</p> 
 
                         <p className="company">E-plus Network <span className="duration">2018 - 2019</span></p>
-                        <p className="postion">Website Developer</p>
+                        <p className="position">Website Developer</p>
 
-                        <p className="company">G.S.S Agba <span className="duration">2018 - 2018</span></p>
-                        <p className="postion">Mathematics and Computer Studies Tutor</p>  
+                        <p className="company">Government Sec. School Agba <span className="duration">2018 - 2018</span></p>
+                        <p className="position">Mathematics and Computer Studies Tutor</p>  
 
-                        <p className="company">GAP Networks <span className="duration">2016 - 2016</span></p>
-                        <p className="postion">IT Support Intern</p> 
+                        <p className="company">Global Access Providers and Networks <span className="duration">2016 - 2016</span></p>
+                        <p className="position">IT Support Intern</p> 
                     </div>
                     <div className="col-sm-12 col-md-5 work_intro">
                         <h3>Work Experience</h3>

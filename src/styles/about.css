@@ -1,16 +1,8 @@
 .aboutme_container{
-    /* width: 100%;
-    height: 100vh;
-    background-size: cover;
-    position: relative; */
     margin-top: 50px;
+    margin-bottom: 50px;
 }
-.intro{
-    border: red 2px solid;
-}
-.details{
-    border: red 2px solid;
-}
+
 .about_text {
     font-size: 18px;
     color: #000;
@@ -50,14 +42,28 @@
     .work_intro { 
         order: 1 
     }
+    .work_intro h3{ 
+        text-align: left;
+    }
 }
 
 .duration {
-    position: absolute;
-    margin-left: 100px;
+    float:right;
 }
 
 .company {
     font-size: 20px;
     margin-bottom: 0px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.position {
+    color: #EC407A;
+    font-weight: 400;
+    text-align: left;
+}
+
+.work_intro h3{ 
+    text-align: right;
 }
