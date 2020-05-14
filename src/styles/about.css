@@ -39,35 +39,25 @@
 }
 
 @media (max-width:767px){
-.work_exp { 
-    display:flex; 
-    flex-direction: column; 
-    text-align:center;
-}
-.work_details { 
-    order: 2 
-}
-.work_intro { 
-    order: 1 
-}
+    .work_exp { 
+        display:flex; 
+        flex-direction: column; 
+        text-align:center;
+    }
+    .work_details { 
+        order: 2 
+    }
+    .work_intro { 
+        order: 1 
+    }
 }
 
 .duration {
     position: absolute;
-    left: 200px;
+    margin-left: 100px;
 }
-/* ul li {
-    list-style: none;
-}
-.company {
-    float: left;
-}
-.duration {
-    float: right;
-}
-.postion {
-    float: left;
-} */
-.edu_container {
 
+.company {
+    font-size: 20px;
+    margin-bottom: 0px;
 }
