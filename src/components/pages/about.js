@@ -6,78 +6,58 @@ import Footer from '../footer/footer'
 function About() {
     return (
         <div>
-            <div className="aboutme_container">
-                <div className="aboutme_banner">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-sm-12 col-md-7 col-lg-7 about_container">
-                                <h2>About me</h2>
-                                    <img src={chinedu} width="100" height="100" className="chinedu_pic" alt="Chinedu Emesue" />
-                                <p className="about_text">
-                                A full stack web developer with 4 years experience in software development. A critical thinker and fast learner experienced in achieving concrete goals on a strict deadline with vast knowledge of software development and its operations.
-                                </p>
-                                <div className="social_links">
-                                <a href="https://github.com/its-nedum" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
-                                <a href="https://www.twitter.com/its_nedum" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
-                                <a href="https://www.linkedin.com/in/chinedu-emesue" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
-                                <a href="https://www.facebook.com/itsnedum" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i></a>
-                                </div>
-                            </div>
+            {/* About me */}
+            <div className="aboutme_container container">
+                <div className="row">
+                    <div className="col-sm-12 col-md-5">
+                        <h3>Get to know me more</h3>
+                    </div>
+                    <div className="col-sm-12 col-md-7">
+                        <img src={chinedu} width="100" height="100" className="chinedu_pic" alt="Chinedu Emesue" />
+                        <p className="about_text">
+                        I am Full Stack Web Developer and IT Engineer who’s passionate about helping organization leverage the internet to
+                        grow their business and increase revenue. I have over 4 years experience working in the information technology and services industry with 
+                        vast knowledge of software development and its operations.</p>
+                        <p className="about_text">A critical thinker and a fast learner skilled in web and mobile application design and development using JavaScript, React, Node.js, Express, 
+                        React-Native, Redux, PHP, HTML and CSS</p>
+                        <p className="about_text">When I am not coding, I'm either watching a Tv series or visiting a friend</p>
+                        <p className="about_text">I'm always looking to work on fun projects. Feel free to reach out with work inquiries, side projects, or just to say hello!</p>
+                        
+                        <div className="social_links">
+                        <a href="https://github.com/its-nedum" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+                        <a href="https://www.twitter.com/its_nedum" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/chinedu-emesue" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/itsnedum" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <div className="eduwork_container">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm-12 heading">
-                                <h2>Work History</h2>
-                        </div>
+
+            {/* Work Experience */}
+            <div className="work_container">
+                <div className="row">
+                    <div className="col-sm-12 col-md-7">
+                        <ul className="work">
+                            <li>
+                                <h4>
+                                    <span>Hot 98.3 Fm Abuja</span>
+                                    <span>2020 - Present</span>
+                                </h4>
+                                <span>IT Engineer and Traffic Officer</span>
+                            </li>
+                        </ul>
                     </div>
-                    <div className="row">
-                        <div className="col-sm-12 col-md-6 sectionOne">
-                            <p className="position">
-                                <span className="icon">&#8594;</span> 
-                                    IT Engineer and Traffic Officer <br/>
-                                    <span className="company">Hot 98.3 FM Abuja </span><i className="duration">February 2020 – till date</i>
-                            </p>
-                            <p className="position">
-                                <span className="icon">&#8594;</span> 
-                                Information Technology Support Engineer <br/>
-                                    <span className="company">Global Access Providers and Network </span><i className="duration">March 2019 – January 2020</i>
-                            </p>
-                            <p className="position">
-                                <span className="icon">&#8594;</span> 
-                                Website Developer <br/>
-                                    <span className="company">E-plus Network, Lafia </span><i className="duration">October 2018 – February 2019</i>
-                            </p>
-                        </div>
-                        <div className="col-sm-12 col-md-6 sectionTwo">
-                            <p className="position">
-                                <span className="icon">&#8594;</span> 
-                                Mathematics and Computer Studies Tutor (NYSC) <br/>
-                                    <span className="company">Government Secondary School Agba </span><i className="duration">December 2017 – October 2018</i>
-                            </p>
-                            <p className="position">
-                                <span className="icon">&#8594;</span> 
-                                IT Support (Internship) <br/>
-                                    <span className="company">Global Access Provider and Networks </span><i className="duration">March 2016 – October 2016</i>
-                            </p>
-                            <p className="position">
-                                <span className="icon">&#8594;</span> 
-                                Computer Operator <br/>
-                                    <span className="company">BII Computer Institute </span><i className="duration">February 2011 – July 2011</i>
-                            </p>
-                        </div>    
+                    <div className="col-sm-12 col-md-5">
+                        <h3>Work Experience</h3>
                     </div>
                 </div>
             </div>
-            <div className="projects_container">
-                <div className="projects_banner">
+
+            {/* Academic Qualification */}
+            <div className="edu_container">
                 
-                </div>
             </div>
+
             <Footer />
         </div>
     )
