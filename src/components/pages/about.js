@@ -10,7 +10,7 @@ function About() {
             <div className="aboutme_container container">
                 <div className="row">
                     <div className="col-sm-12 col-md-5">
-                        <h3>Get to know me more</h3>
+                        <h3>About Me</h3>
                     </div>
                     <div className="col-sm-12 col-md-7">
                         <img src={chinedu} width="100" height="100" className="chinedu_pic" alt="Chinedu Emesue" />
@@ -34,28 +34,29 @@ function About() {
             </div>
 
             {/* Work Experience */}
-            <div className="work_container">
-                <div className="row">
-                    <div className="col-sm-12 col-md-7">
-                        <ul className="work">
-                            <li>
-                                <h4>
-                                    <span>Hot 98.3 Fm Abuja</span>
-                                    <span>2020 - Present</span>
-                                </h4>
-                                <span>IT Engineer and Traffic Officer</span>
-                            </li>
-                        </ul>
+            <div className="container">
+                <div className="row work_exp">
+                    <div className="col-sm-12 col-md-7 work_details">
+                        <p className="company">Hot 98.3 FM Abuja <span className="duration">2020 - Present</span></p>
+                        <p className="postion">IT Engineer and Traffic Officer</p>
+                            
                     </div>
-                    <div className="col-sm-12 col-md-5">
+                    <div className="col-sm-12 col-md-5 work_intro">
                         <h3>Work Experience</h3>
                     </div>
                 </div>
             </div>
 
             {/* Academic Qualification */}
-            <div className="edu_container">
-                
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-12 col-md-5">
+                        <h3>Academic Qualification</h3>
+                    </div>
+                    <div className="col-sm-12 col-md-7">
+
+                    </div>
+                </div>
             </div>
 
             <Footer />

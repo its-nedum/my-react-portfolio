@@ -37,15 +37,37 @@
     /* opacity: 0.7; */
     border-style: none;
 }
-.work_container {
 
+@media (max-width:767px){
+.work_exp { 
+    display:flex; 
+    flex-direction: column; 
+    text-align:center;
 }
-.work li {
+.work_details { 
+    order: 2 
+}
+.work_intro { 
+    order: 1 
+}
+}
+
+.duration {
+    position: absolute;
+    left: 200px;
+}
+/* ul li {
     list-style: none;
-    list-style-position: outside;
-    list-style-image: none;
-    list-style-type: none;
 }
+.company {
+    float: left;
+}
+.duration {
+    float: right;
+}
+.postion {
+    float: left;
+} */
 .edu_container {
 
 }
