@@ -1,0 +1,14 @@
+.contact_container {
+    margin-top: 50px;  
+}
+.container {
+    margin-bottom: 500px;
+}
+
+.contact_intro, label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.submit_btn{
+    margin-left: 15px;
+}
