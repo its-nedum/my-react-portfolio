@@ -17,3 +17,7 @@
 p a {
     color: cornflowerblue;
 }
+
+.single_project .container {
+    margin-bottom: 200px !important;
+}

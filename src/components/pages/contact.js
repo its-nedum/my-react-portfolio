@@ -5,7 +5,7 @@ import '../../styles/contact.css'
 function Contact() {
     return (
         <div className="contact_container">
-            <div className="container">
+            <div className="container cont_holder">
                 <div className="row">
                     <div className="col-sm-12 col-md-6">
                         <h3>Get In Touch</h3>
