@@ -86,7 +86,9 @@ function Home() {
                     </div>
                 </div>
                 <div className="row">
-                    <Link to="/projects" className="btn btn-primary">More Projects</Link>
+                    <div className="col-sm-12">
+                        <Link to="/projects" className="btn btn-primary">More Projects</Link>
+                    </div>
                 </div>
             </div>
         </div>

@@ -2,14 +2,12 @@
     text-transform: uppercase;
 }
 
-/* nav {
-    background-color: #000;
-} */
+.nav_link_black{
+    color: black !important;
+    font-weight: 600;
+    text-transform: capitalize;
+}
 
 a {
     color: #fff;
 }
-
-/* .navbar-toggler-icon {
-    color: #fff;
-} */
