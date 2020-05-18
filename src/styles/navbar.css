@@ -1,6 +1,9 @@
 .nav-link{
     text-transform: uppercase;
 }
+.nav-item > a:hover {
+    border-bottom: 1px solid #000;
+}
 
 .nav_link_black{
     color: black !important;
