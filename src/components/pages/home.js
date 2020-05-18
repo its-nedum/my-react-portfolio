@@ -7,9 +7,6 @@ import angelacademy from '../../images/angelAcademyport.png'
 import diabetes from '../../images/diabetes.png'
 import nsjsc from '../../images/nsjsc.png'
 import teamwork from '../../images/teamworkApp.png'
-import notifyme from '../../images/notify-me.png'
-import posttimes from '../../images/post-times.png'
-import todo from '../../images/todo.png'
 import {Link} from 'react-router-dom'
 import Footer from '../footer/home_footer'
 
@@ -89,7 +86,10 @@ function Home() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-12 col-md-4">
+                    
+                    <Link to="/projects" className="btn btn-primary">More Projects</Link>
+                    
+                    {/* <div className="col-sm-12 col-md-4">
                         <Link to="/projects/notify-me">
                             <img src={notifyme} alt="project 7" className="img-fluid" />
                         </Link>
@@ -115,7 +115,7 @@ function Home() {
                             <h4>To Do List App</h4>
                             <p>Web Application</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

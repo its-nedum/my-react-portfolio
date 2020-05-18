@@ -14,6 +14,7 @@ import Teamwork from './components/projects/teamwork'
 import Notifyme from './components/projects/notifyme'
 import Posttimes from './components/projects/posttimes'
 import Todo from './components/projects/todo'
+import Project from './components/pages/project'
 
 class App extends React.Component {
   render(){
@@ -25,6 +26,7 @@ class App extends React.Component {
           <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />
           <Route path='/contact' component={Contact} />
+          <Route exact path='/projects' component={Project} />
           <Route exact path='/projects/christian-connect' component={Christianconnect} />
           <Route exact path='/projects/esmartcards' component={Esmartcards} />
           <Route exact path='/projects/angel-academy' component={Angelacademy} />

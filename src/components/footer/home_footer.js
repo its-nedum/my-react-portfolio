@@ -9,30 +9,30 @@ import diabetes from '../../images/new.png'
 
 function Home_footer() {
     return (
-        <div className="footer">
+        <div className="footer home-footer">
             <div className="card">
                 <div className="container">
                 <h2 className="clients">Clients</h2>
                 <hr></hr>
                     <div className="row">
-                        <div className="col-sm-12 col-md-4">
+                        <div className="col-sm-12 col-md-4 clients_img">
                             <img src={middleware} alt="client1" className="img-fluid" />
                         </div>
-                        <div className="col-sm-12 col-md-4">
+                        <div className="col-sm-12 col-md-4 clients_img">
                             <img src={zeabon} alt="client1" className="img-fluid" />
                         </div>
-                        <div className="col-sm-12 col-md-4">
+                        <div className="col-sm-12 col-md-4 clients_img">
                             <img src={angel} alt="client1" className="img-fluid" />
                         </div> 
                     </div>
                     <div className="row">
-                        <div className="col-sm-12 col-md-4">
+                        <div className="col-sm-12 col-md-4 clients_img">
                             <img src={quickseller} alt="client1" className="img-fluid" />
                         </div>
-                        <div className="col-sm-12 col-md-4">
+                        <div className="col-sm-12 col-md-4 clients_img">
                             <img src={esmart} alt="client1" className="img-fluid" />
                         </div>
-                        <div className="col-sm-12 col-md-4">
+                        <div className="col-sm-12 col-md-4 clients_img">
                             <img src={diabetes} alt="client1" className="img-fluid" />
                         </div>
                     </div>

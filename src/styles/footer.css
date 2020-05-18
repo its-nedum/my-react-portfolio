@@ -4,8 +4,16 @@
 }
 
 .apart {
-    border-top: 5px solid #fff;
-    /* background-color: rgb(27, 27, 27); */
+    background-color: #fff;
+    color: #000;
+}
+
+.apart .social_link li i, .apart li a {
+    color: #000;
+}
+
+.home-footer .card{
+    border: none !important;
 }
 
 .social_link li{
@@ -29,13 +37,13 @@ ul {
 
 .clients {
     color: #fff;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 600;
 }
 
-/* .sticky_footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;   
-} */
+/* Media Queries */
+@media(max-width:425px){
+    .clients_img {
+        margin-bottom: 20px;
+    }   
+}

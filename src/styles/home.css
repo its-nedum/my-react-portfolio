@@ -44,7 +44,57 @@
 }
 
 .feat_project {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 600;
 }
 
+.pro_sec2 {
+    margin-bottom: 50px;
+}
+
+/* Media Queries */
+@media(max-width:425px){
+    .intro_name{
+        font-weight: 500;
+        font-family: "Raleway", sans-serif;
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+    .intro_info{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .feat_project {
+        text-transform: capitalize;
+        font-weight: 400;
+    }
+}
+
+@media(max-width:375px){
+    .intro_name{
+        font-weight: 500;
+        font-family: "Raleway", sans-serif;
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .intro_info{
+        font-size: 18px;
+        font-weight: 500;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+
+@media(max-width:375px){
+    .intro_name{
+        font-weight: 500;
+        font-family: "Raleway", sans-serif;
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+    .intro_info{
+        font-size: 14px;
+        font-weight: 500;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
