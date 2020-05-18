@@ -86,36 +86,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="row">
-                    
                     <Link to="/projects" className="btn btn-primary">More Projects</Link>
-                    
-                    {/* <div className="col-sm-12 col-md-4">
-                        <Link to="/projects/notify-me">
-                            <img src={notifyme} alt="project 7" className="img-fluid" />
-                        </Link>
-                        <div className="project_description">
-                            <h4>Notify Me</h4>
-                            <p>Web Application</p>
-                        </div>
-                    </div>
-                    <div className="col-sm-12 col-md-4">
-                        <Link to="/projects/post-times">
-                            <img src={posttimes} alt="project 8" className="img-fluid" />
-                        </Link>
-                        <div className="project_description">
-                            <h4>Post Times</h4>
-                            <p>Web Application</p>
-                        </div>
-                    </div>
-                    <div className="col-sm-12 col-md-4">
-                        <Link to="/projects/todo">
-                            <img src={todo} alt="project 8" className="img-fluid" />
-                        </Link>
-                        <div className="project_description">
-                            <h4>To Do List App</h4>
-                            <p>Web Application</p>
-                        </div>
-                    </div> */}
                 </div>
             </div>
         </div>

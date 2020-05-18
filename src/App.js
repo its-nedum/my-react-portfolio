@@ -15,6 +15,8 @@ import Notifyme from './components/projects/notifyme'
 import Posttimes from './components/projects/posttimes'
 import Todo from './components/projects/todo'
 import Project from './components/pages/project'
+import Watchitoutside from './components/projects/watchitoutside'
+import Chalets from './components/projects/chalets'
 
 class App extends React.Component {
   render(){
@@ -36,6 +38,8 @@ class App extends React.Component {
           <Route exact path='/projects/notify-me' component={Notifyme} />
           <Route exact path='/projects/post-times' component={Posttimes} />
           <Route exact path='/projects/todo' component={Todo} />
+          <Route exact path='/projects/watchitoutside' component={Watchitoutside} />
+          <Route exact path='/projects/chalets-and-caviar' component={Chalets} />
       </Switch>
       {/* <Footer /> */}
     </div>
