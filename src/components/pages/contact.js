@@ -1,8 +1,16 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import Footer from '../footer/footer'
 import '../../styles/contact.css'
 
 function Contact() {
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+
+    const validateName = (e) => {
+        console.log("Hello world")
+    }
+    
     return (
         <div className="contact_container">
             <div className="container cont_holder">
@@ -23,13 +31,13 @@ function Contact() {
                         <div className="row">
                             <div className="col-sm-12 col-md-6">
                                 <div className="form-group mb-3">
-                                    <label for="fullname">Full Name</label>
-                                    <input type="text" id="fullname" className="form-control" placeholder="John Doe" required=""/>
+                                    <label htmlFor="fullname">Full Name</label>
+                                    <input type="text" id="fullname" className="form-control" placeholder="John Doe" onChange={validateName()} required=""/>
                                 </div>
                             </div>
                             <div className="col-sm-12 col-md-6">
                                 <div className="form-group mb-3">
-                                    <label for="email">E-mail</label>
+                                    <label htmlFor="email">E-mail</label>
                                     <input type="email" id="email" className="form-control" placeholder="john.doe@gmail.com" required=""/>
                                 </div>
                             </div>
@@ -37,7 +45,7 @@ function Contact() {
                         <div className="row">
                             <div className="col-sm-12">
                                 <div className="form-group">
-                                    <label for="message">Message</label>
+                                    <label htmlFor="message">Message</label>
                                     <textarea className="form-control" id="message" rows="8" placeholder="Hello..." required=""></textarea>
                                 </div>
                             </div>
