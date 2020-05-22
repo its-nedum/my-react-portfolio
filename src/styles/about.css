@@ -32,7 +32,6 @@
     border-style: none;
 }
 .heading {
-    font-family: "Raleway", sans-serif;
     font-weight: 600;
     border-bottom: 2px solid #000;
 }
@@ -52,7 +51,6 @@
     margin-bottom: 0px;
     font-weight: 400;
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .position {
@@ -65,6 +63,30 @@
     text-align: right;
 }
 
+
+/*--------------------------------------------------------------
+# Academic Qualification Styles
+--------------------------------------------------------------*/
+.acad_container {
+    margin-bottom: 50px;
+}
+
+/*--------------------------------------------------------------
+# Training, Certification
+--------------------------------------------------------------*/
+.awardee {
+    color: #EC407A;
+}
+.cert p {
+    margin-bottom: 0px;
+}
+.certandtrain {
+    margin-bottom: 50px;
+}
+
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
 @media (max-width:767px){
     .work_exp { 
         display:flex; 
@@ -82,9 +104,8 @@
     }
 }
 
-/*--------------------------------------------------------------
-# Academic Qualification Styles
---------------------------------------------------------------*/
-.acad_container {
-    margin-bottom: 50px;
+@media(max-width:767px){
+    .heading {
+        border-bottom: none;
+    }
 }

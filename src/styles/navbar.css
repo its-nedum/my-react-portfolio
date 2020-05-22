@@ -14,3 +14,10 @@
 a {
     color: #fff;
 }
+
+
+@media (max-width: 991px){
+    .nav-item > a:hover {
+        border-bottom: none;
+    }
+}

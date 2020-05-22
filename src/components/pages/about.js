@@ -76,7 +76,30 @@ function About() {
                     </div>
                 </div>
             </div>
-
+            {/* Certification, training and interest */}
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-12 col-md-6 certandtrain">
+                        <h3 className="heading">Training and Certifications</h3>
+                        <div className="cert">
+                            <p>&bull; Facebook Developers Circle Q1 2020 - <span className="awardee">Andela, Facebook and OpenClassrooms</span></p>
+                            <p>&bull; 3rd Place Winner 2019 Local Hack Day Abuja - <span className="awardee">Major League Hacking (MLH)</span></p>
+                            <p>&bull; DevC Training 2019 – <span className="awardee">Andela, Facebook and OpenClassrooms</span></p>
+                            <p>&bull; ALC 4.0 Training 2019 – <span className="awardee">Andela, Google and Pluralsight</span></p>
+                            <p>&bull; 15+ Certificate of Course Completion - <span className="awardee">OpenClassrooms</span></p>
+                            <p>&bull; 40+ Certificate of Course Completion - <span className="awardee">Pluralsight</span></p>
+                        </div>
+                    </div>
+                    <div className="col-sm-12 col-md-6">
+                        <h3 className="heading">Interests</h3>
+                        <div className="cert">
+                            <p>&bull; Tv Shows</p>
+                            <p>&bull; Football</p>
+                            <p>&bull; Traveling</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <Footer />
         </div>
     )
