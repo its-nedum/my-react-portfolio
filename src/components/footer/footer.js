@@ -1,5 +1,4 @@
 import React from 'react'
-// import {Link} from 'react-router-dom'
 import '../../styles/footer.css'
 
 function Footer() {
@@ -7,7 +6,7 @@ function Footer() {
         <div className="footer">
             <div className="card">
             
-            <div className="card-footer text-muted text-center">
+            <div className="card-footer text-muted text-center myfooter">
                 <p>&copy; 2020 CHINEDU EMESUE, ALL RIGHTS RESERVED </p>
                 <ul className="social_link"> 
                     <li><i className="fab fa-github"></i><a href="https://github.com/its-nedum" target="_blank" rel="noopener noreferrer"> Github</a></li>

@@ -41,6 +41,9 @@ ul {
     font-weight: 600;
 }
 
+.myfooter .social_link li > a:hover {
+    color: #fff;
+}
 /* Media Queries */
 @media(max-width:425px){
     .clients_img {

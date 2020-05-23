@@ -15,13 +15,13 @@ function About() {
                     <div className="col-sm-12 col-md-7">
                         <img src={chinedu} width="100" height="100" className="chinedu_pic" alt="Chinedu Emesue" />
                         <p className="about_text">
-                        I am Full Stack Web Developer and IT Engineer who’s passionate about helping organization leverage the internet to
+                        I am a Full Stack Web Developer and an IT Engineer who’s passionate about helping organization leverage the internet to
                         grow their business and increase revenue. I have over 4 years experience working in the information technology and services industry with 
                         vast knowledge of software development and its operations.</p>
-                        <p className="about_text">A critical thinker and a fast learner skilled in web and mobile application design and development using JavaScript, React, Node.js, Express, 
-                        React-Native, Redux, PHP, HTML and CSS</p>
-                        <p className="about_text">When I am not coding, I'm either watching a Tv series or visiting a friend</p>
-                        <p className="about_text">I'm always looking to work on fun projects. Feel free to reach out with work inquiries, side projects, or just to say hello!</p>
+                        <p className="about_text">I'm a critical thinker and a fast learner skilled in web and mobile application design and development using technologies such as JavaScript, React, Node.js, Express, 
+                        React-Native, Redux, PHP, HTML, CSS and databases like MySQL, MongoDB and PostgreSQL.</p>
+                        <p className="about_text">On my personal time when I am not coding, I enjoy watching Tv Series and visiting friends.</p>
+                        <p className="about_text">I'm always looking to work on fun projects and learning new skills. Feel free to reach out with work inquiries, side projects, or just to say hello!</p>
                         
                         <div className="social_links">
                         <a href="https://github.com/its-nedum" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>

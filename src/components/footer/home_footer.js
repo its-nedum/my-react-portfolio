@@ -26,9 +26,9 @@ function Home_footer() {
                         </div> 
                     </div>
                     <div className="row">
-                        <div className="col-sm-12 col-md-4 clients_img">
+                        {/* <div className="col-sm-12 col-md-4 clients_img">
                             <img src={quickseller} alt="client1" className="img-fluid" />
-                        </div>
+                        </div> */}
                         <div className="col-sm-12 col-md-4 clients_img">
                             <img src={esmart} alt="client1" className="img-fluid" />
                         </div>
