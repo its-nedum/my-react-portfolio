@@ -7,7 +7,7 @@ import todo from '../../images/todo.png'
 import chalets from '../../images/chaletandcaviar.jpg'
 import watchitoutside from '../../images/watchitoutside.jpg'
 
-function Project() {
+const Project = () => {
     return (
         <div className="more_projects">
             <div className="container">

@@ -3,7 +3,8 @@ import '../../styles/about.css'
 import chinedu from '../../images/chinedu.jpg'
 import Footer from '../footer/footer'
 
-function About() {
+const About = () => {
+    
     return (
         <div>
             {/* About me */}

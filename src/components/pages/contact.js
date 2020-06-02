@@ -3,7 +3,7 @@ import Footer from '../footer/footer'
 import '../../styles/contact.css'
 import emailjs from 'emailjs-com'
 
-function Contact() {
+const Contact = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');

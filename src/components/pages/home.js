@@ -11,7 +11,7 @@ import {Link} from 'react-router-dom'
 import Footer from '../footer/home_footer'
 
 
-function Home() {
+const Home = () => {
     
     return (
         <div>

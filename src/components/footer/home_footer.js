@@ -7,7 +7,7 @@ import angel from '../../images/client4.png'
 import esmart from '../../images/esmart.jpg'
 import diabetes from '../../images/new.png'
 
-function Home_footer() {
+const Home_footer = () => {
     return (
         <div className="footer home-footer">
             <div className="card">
