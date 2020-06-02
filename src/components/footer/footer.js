@@ -9,10 +9,10 @@ function Footer() {
             <div className="card-footer text-muted text-center myfooter">
                 <p>&copy; 2020 CHINEDU EMESUE, ALL RIGHTS RESERVED </p>
                 <ul className="social_link"> 
-                    <li><i className="fab fa-github"></i><a href="https://github.com/its-nedum" target="_blank" rel="noopener noreferrer"> Github</a></li>
-                    <li><i className="fab fa-twitter"></i><a href="https://www.twitter.com/its_nedum" target="_blank" rel="noopener noreferrer"> Twitter</a></li>
-                    <li><i className="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/chinedu-emesue" target="_blank" rel="noopener noreferrer"> LinkedIn</a></li>
-                    <li><i className="fab fa-facebook"></i><a href="https://www.facebook.com/itsnedum" target="_blank" rel="noopener noreferrer"> Facebook</a></li>
+                    <li><span className="fab fa-github"></span><a href="https://github.com/its-nedum" target="_blank" rel="noopener noreferrer"> Github</a></li>
+                    <li><span className="fab fa-twitter"></span><a href="https://www.twitter.com/its_nedum" target="_blank" rel="noopener noreferrer"> Twitter</a></li>
+                    <li><span className="fab fa-linkedin"></span><a href="https://www.linkedin.com/in/chinedu-emesue" target="_blank" rel="noopener noreferrer"> LinkedIn</a></li>
+                    <li><span className="fab fa-facebook"></span><a href="https://www.facebook.com/itsnedum" target="_blank" rel="noopener noreferrer"> Facebook</a></li>
                 </ul>
             </div>
             </div>

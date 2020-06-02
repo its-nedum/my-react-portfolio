@@ -24,10 +24,10 @@ function About() {
                         <p className="about_text">I'm always looking to work on fun projects and learning new skills. Feel free to reach out with work inquiries, side projects, or just to say hello!</p>
                         
                         <div className="social_links">
-                        <a href="https://github.com/its-nedum" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
-                        <a href="https://www.twitter.com/its_nedum" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/in/chinedu-emesue" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
-                        <a href="https://www.facebook.com/itsnedum" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i></a>
+                        <a href="https://github.com/its-nedum" target="_blank" rel="noopener noreferrer"><span className="fab fa-github"></span></a>
+                        <a href="https://www.twitter.com/its_nedum" target="_blank" rel="noopener noreferrer"><span className="fab fa-twitter"></span></a>
+                        <a href="https://www.linkedin.com/in/chinedu-emesue" target="_blank" rel="noopener noreferrer"><span className="fab fa-linkedin"></span></a>
+                        <a href="https://www.facebook.com/itsnedum" target="_blank" rel="noopener noreferrer"><span className="fab fa-facebook"></span></a>
                         </div>
                     </div>
                 </div>
