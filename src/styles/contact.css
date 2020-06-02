@@ -12,3 +12,11 @@
 .submit_btn{
     margin-left: 15px;
 }
+
+.error_msg, .btnerror_msg{
+    color: red;
+}
+
+.btnsuccess_msg{
+    color: green;
+}

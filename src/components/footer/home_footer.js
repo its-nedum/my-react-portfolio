@@ -3,7 +3,7 @@ import '../../styles/footer.css'
 import middleware from '../../images/Middleware Logo.png'
 import zeabon from '../../images/Zea Logo.png'
 import angel from '../../images/client4.png'
-import quickseller from '../../images/client5.png'
+// import quickseller from '../../images/client5.png'
 import esmart from '../../images/esmart.jpg'
 import diabetes from '../../images/new.png'
 

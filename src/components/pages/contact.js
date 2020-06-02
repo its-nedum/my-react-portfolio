@@ -1,44 +1,56 @@
 import React, { useState } from 'react'
 import Footer from '../footer/footer'
 import '../../styles/contact.css'
-import axios from 'axios'
+import emailjs from 'emailjs-com'
 
 function Contact() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
-    const [inputs, setInputs] = useState({
-        name: "", 
-        email: "",
-        message: ""
-    })
+    const [nameError, setNameError] = useState('');
+    const [emailError, setEmailError] = useState('')
+    const [messageError, setMessageError] = useState('');
+    const [btnsuccess, setBtnSuccess] = useState('');
+    const [btnerror, setBtnError] = useState('');
+    
 
     const handleSubmit = (e) => {
-        e.preventDefault();        
-        if(!name && !email && !message){
-            return 
+        e.preventDefault(); 
+
+        if(!name || name.length < 3){
+           return setNameError('*Name is too short')
         }else{
-            setInputs({
-                name,
-                email,
-                message
-            })
-            setName(''); 
-            setEmail(); 
-            setMessage();
-            console.log(inputs)
-            axios({
-                method: "POST",
-                url: "https://formspree.io/emesuechinedu@gmail.com",
-                data: inputs
-            })
-            .then(r => {
-                console.log("Thanks!");
-              })
-            .catch(r => {
-                console.log("Error");
-            });
+            setNameError('')
+        } 
+
+        const verified = /\S+@\S+\.\S+/.test(email) 
+        if(!email || verified === false){
+          return setEmailError('*Enter a valid email')
+        }else{
+            setEmailError('')
         }
+
+        if(!message){
+            return setMessageError('*Message is blank')
+        }else{
+            setMessageError('')
+        }
+        
+        const templateParams = {
+            contact_number: Math.random() * 100000 | 0,
+            user_name: name,
+            user_email: email,
+            message: message
+        }
+        emailjs.send('portfolio_contact', 'portfolio_contact', templateParams, 'user_dEyBAFeF6wkeYp8eAsFU1')
+            .then((response) => {
+                setBtnSuccess('Your message was sent successfully!')
+                setBtnError('')
+            }, (err) => {
+                setBtnError('*Something went wrong, please try again later')
+                setBtnSuccess('')
+        })
+        
     }
     
     return (
@@ -63,12 +75,14 @@ function Contact() {
                                 <div className="form-group mb-3">
                                     <label htmlFor="fullname">Full Name</label>
                                     <input type="text" id="fullname" className="form-control" placeholder="John Doe" value={name} onChange={e => setName(e.target.value)} required=""/>
+                                    <p className="error_msg">{nameError}</p>
                                 </div>
                             </div>
                             <div className="col-sm-12 col-md-6">
                                 <div className="form-group mb-3">
                                     <label htmlFor="email">E-mail</label>
                                     <input type="email" id="email" className="form-control" placeholder="john.doe@gmail.com" value={email} onChange={e => setEmail(e.target.value)} required=""/>
+                                    <p className="error_msg">{emailError}</p>
                                 </div>
                             </div>
                         </div>
@@ -77,12 +91,19 @@ function Contact() {
                                 <div className="form-group">
                                     <label htmlFor="message">Message</label>
                                     <textarea className="form-control" id="message" rows="8" placeholder="Hello..." value={message} onChange={e => setMessage(e.target.value)} required=""></textarea>
+                                    <p className="error_msg">{messageError}</p>
                                 </div>
                             </div>
                         </div>
                         <div className="row">
                             <div className="submit_btn">
                                 <input type="submit" className="form-control btn btn-primary" value="Submit" onClick={handleSubmit} />
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-sm-12">
+                                <p className="btnsuccess_msg">{btnsuccess}</p>
+                                <p className="btnerror_msg">{btnerror}</p>
                             </div>
                         </div>
                     </form>
