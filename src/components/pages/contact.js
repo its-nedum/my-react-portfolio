@@ -16,7 +16,7 @@ function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault(); 
-
+        // Form Validation
         if(!name || name.length < 3){
            return setNameError('*Name is too short')
         }else{
@@ -30,12 +30,12 @@ function Contact() {
             setEmailError('')
         }
 
-        if(!message){
+        if(!message || message === " "){
             return setMessageError('*Message is blank')
         }else{
             setMessageError('')
         }
-        
+        //Preparing the mail message body
         const templateParams = {
             contact_number: Math.random() * 100000 | 0,
             user_name: name,
@@ -44,10 +44,13 @@ function Contact() {
         }
         emailjs.send('portfolio_contact', 'portfolio_contact', templateParams, 'user_dEyBAFeF6wkeYp8eAsFU1')
             .then((response) => {
-                setBtnSuccess('Your message was sent successfully!')
-                setBtnError('')
+                setBtnSuccess('Your message was sent successfully!');
+                setBtnError('');
+                setName('');
+                setEmail('');
+                setMessage('');
             }, (err) => {
-                setBtnError('*Something went wrong, please try again later')
+                setBtnError('*Something went wrong, please try again later');
                 setBtnSuccess('')
         })
         
