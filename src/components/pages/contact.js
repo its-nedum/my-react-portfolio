@@ -12,6 +12,7 @@ const Contact = () => {
     const [messageError, setMessageError] = useState('');
     const [btnsuccess, setBtnSuccess] = useState('');
     const [btnerror, setBtnError] = useState('');
+    const [btnText, setBtnText] = useState('Submit')
     
 
     const handleSubmit = (e) => {
@@ -35,6 +36,10 @@ const Contact = () => {
         }else{
             setMessageError('')
         }
+
+        if(name && email && message){
+            setBtnText('Sending...')
+        }
         //Preparing the mail message body
         const templateParams = {
             contact_number: Math.random() * 100000 | 0,
@@ -45,6 +50,7 @@ const Contact = () => {
         emailjs.send('portfolio_contact', 'portfolio_contact', templateParams, 'user_dEyBAFeF6wkeYp8eAsFU1')
             .then((response) => {
                 setBtnSuccess('Your message was sent successfully!');
+                setBtnText('Submit')
                 setBtnError('');
                 setName('');
                 setEmail('');
@@ -100,7 +106,7 @@ const Contact = () => {
                         </div>
                         <div className="row">
                             <div className="submit_btn">
-                                <input type="submit" className="form-control btn btn-primary" value="Submit" onClick={handleSubmit} />
+                                <input type="submit" className="form-control btn btn-primary" value={btnText} onClick={handleSubmit} />
                             </div>
                         </div>
                         <div className="row">
