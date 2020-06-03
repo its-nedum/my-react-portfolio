@@ -57,6 +57,7 @@ const Contact = () => {
                 setMessage('');
             }, (err) => {
                 setBtnError('*Something went wrong, please try again later');
+                setBtnText('Submit')
                 setBtnSuccess('')
         })
         
