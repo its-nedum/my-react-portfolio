@@ -44,10 +44,12 @@ ul {
 .myfooter .social_link li > a:hover {
     color: #fff;
 }
-/* Media Queries */
+
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
 @media(max-width:425px){
     .clients_img {
         margin-bottom: 20px;
-    }   
-    
+    }      
 }

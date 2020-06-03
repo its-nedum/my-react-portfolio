@@ -4,6 +4,10 @@ import Footer from '../footer/footer'
 import jsonData from './data.json'
 
 const SingleProject = (props) => {
+    /*
+    * This code decide what project to display depending on the 
+    * URL parameter
+    */
     const slug = props.match.params.slug;
     const check = (item) => {
         return item.slug === slug
