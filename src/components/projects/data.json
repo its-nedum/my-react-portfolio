@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "title": "Angel Academy",
+        "description": "This is the school portal for Angel Academy",
+        "tech": {
+                "frontend": "HTML, CSS, JavaScript",
+                "backend": "PHP",
+                "database": "MySQL"
+            },
+        "url": "https://www.angelacademy.sch.ng",
+        "img": "https://res.cloudinary.com/its-nedum/image/upload/v1591181529/portfolioProjectImages/angelAcademyport_c68odb.png",
+        "slug": "angel_academy"
+    },
+    {
+        "id": 2,
+        "title": "Chalets and Caviar",
+        "description": "Chalet and Caviar is a real estate sales and rentage website and also my OpenClassrooms project 2 for the Full Stack Web Developer path",
+        "tech": {
+                "frontend": "Wordpress"
+            },
+        "url": "https://dev-chaletsandcaviarsales.pantheonsite.io/",
+        "img": "https://res.cloudinary.com/its-nedum/image/upload/v1591181526/portfolioProjectImages/chaletandcaviar_rect0m.jpg",
+        "slug": "chalets_and_caviar"
+    },
+    {
+        "id": 3,
+        "title": "Christian Connect",
+        "description": "Christian Connect is a social network web application where people can meet, chat and connect. Members also get notified of church programs, Job vacancies and gets access to download gospel media files - video and audio.",
+        "tech": {
+                "frontend": "React.js, Redux, JavaScript",
+                "backend": "Node.js, Express, Websocket - Socket.io",
+                "database": "PostgreSQL"
+            },
+        "url": "https://christian-connect.herokuapp.com/",
+        "img": "https://res.cloudinary.com/its-nedum/image/upload/v1591181517/portfolioProjectImages/christianconnect_parzs1.png",
+        "slug": "christian_connect"
+    },
+    {
+        "id": 4,
+        "title": "Esmartcards",
+        "description": "Esmartcards is an online result access card store and examination registration pin sales store.",
+        "tech": {
+                "frontend": "HTML, CSS, JavaScript",
+                "backend": "PHP",
+                "database": "MySQL"
+            },
+        "url": "https://www.esmartcards.com.ng/",
+        "img": "https://res.cloudinary.com/its-nedum/image/upload/v1591181527/portfolioProjectImages/esmartcardsport_pjt3r3.png",
+        "slug": "esmartcards"
+    },
+    {
+        "id": 5,
+        "title": "Kick Out Diabetes",
+        "description": "This is a website for educating the general public about the causes, effect, symptoms and how to prevent Type II diabetes.",
+        "tech": {
+                "frontend": "HTML, CSS, JavaScript",
+                "backend": "PHP",
+                "database": "MySQL"
+            },
+        "url": "https://www.kickoutdiabetes.org.ng",
+        "img": "https://res.cloudinary.com/its-nedum/image/upload/v1591181520/portfolioProjectImages/diabetes_jjxbg7.png",
+        "slug": "kickout_diabetes"
+    },
+    {
+        "id": 6,
+        "title": "Notify Me",
+        "description": "Notify me is an event notification tool for project management for employees of any organization.",
+        "tech": {
+                "frontend": "React.js, Redux, JavaScript",
+                "backend": "Node.js, Express",
+                "database": "Firebase"
+            },
+        "url": "https://notify-me-app.netlify.com",
+        "img": "https://res.cloudinary.com/its-nedum/image/upload/v1591181517/portfolioProjectImages/notify-me_dh0s50.png",
+        "slug": "notify_me"
+    },
+    {
+        "id": 7,
+        "title": "NSJSC",
+        "description": "This is the offcial website for Nasarawa State Judicial Service Commission.",
+        "tech": {
+                "frontend": "HTML, CSS, JavaScript",
+                "backend": "PHP",
+                "database": "MySQL"
+            },
+        "url": "https://www.nsjsc.org.ng",
+        "img": "https://res.cloudinary.com/its-nedum/image/upload/v1591181526/portfolioProjectImages/nsjsc_mk4p2l.png",
+        "slug": "nsjsc"
+    },
+    {
+        "id": 8,
+        "title": "Post Times",
+        "description": "Post times is a blog website template.",
+        "tech": {
+                "frontend": "React.js, JavaScript, Materialize Css"
+            },
+        "url": "https://post-times.netlify.com",
+        "img": "https://res.cloudinary.com/its-nedum/image/upload/v1591181520/portfolioProjectImages/post-times_ud4irs.png",
+        "slug": "post_times"
+    },
+    {
+        "id": 9,
+        "title": "Teamwork App",
+        "description": "Teamwork is an internal social network for employees of an organization.",
+        "tech": {
+                "frontend": "React.js, Redux, JavaScript",
+                "backend": "Node.js, Express",
+                "database": "PostgreSQL"
+            },
+        "url": "https://its-teamwork-app.herokuapp.com",
+        "img": "https://res.cloudinary.com/its-nedum/image/upload/v1591181518/portfolioProjectImages/teamworkApp_vjtf0r.png",
+        "slug": "teamwork"
+    },
+    {
+        "id": 10,
+        "title": "To Do App",
+        "description": "A to do list app.",
+        "tech": {
+                "frontend": "React.js, JavaScript"
+            },
+        "url": "its-nedum-todolist.netlify.com/",
+        "img": "https://res.cloudinary.com/its-nedum/image/upload/v1591181521/portfolioProjectImages/todo_gtkio1.png",
+        "slug": "todo"
+    },
+    {
+        "id": 11,
+        "title": "Watch It Outside - Boston Edition",
+        "description": "Watch it outside is a film festival website and also my OpenClassrooms project 3 for the Full Stack Web Developer path.",
+        "tech": {
+                "frontend": "HTML, CSS, Bootstrap, JavaScript"
+            },
+        "url": "https://its-nedum.github.io/film-festival/",
+        "img": "https://res.cloudinary.com/its-nedum/image/upload/v1591181524/portfolioProjectImages/watchitoutside_w4tiye.jpg",
+        "slug": "watchit_outside"
+    }
+]
