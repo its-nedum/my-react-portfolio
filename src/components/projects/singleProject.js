@@ -3,12 +3,12 @@ import '../../styles/projects.css'
 import Footer from '../footer/footer'
 import jsonData from './data.json'
 
-function SingleProject(props) {
+const SingleProject = (props) => {
     const slug = props.match.params.slug;
-    const func = (item) => {
+    const check = (item) => {
         return item.slug === slug
     }
-    let project = jsonData.filter(func)
+    let project = jsonData.filter(check)
     
     return (
         <div className="single_project">

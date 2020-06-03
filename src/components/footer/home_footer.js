@@ -1,11 +1,5 @@
 import React from 'react'
 import '../../styles/footer.css'
-import middleware from '../../images/Middleware Logo.png'
-import zeabon from '../../images/Zea Logo.png'
-import angel from '../../images/client4.png'
-// import quickseller from '../../images/client5.png'
-import esmart from '../../images/esmart.jpg'
-import diabetes from '../../images/new.png'
 
 const Home_footer = () => {
     return (
@@ -16,24 +10,21 @@ const Home_footer = () => {
                 <hr></hr>
                     <div className="row">
                         <div className="col-sm-12 col-md-4 clients_img">
-                            <img src={middleware} alt="client1" className="img-fluid" />
+                            <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591184392/portfolioProjectImages/Middleware_Logo_bpabty.png" alt="middleware" className="img-fluid" />
                         </div>
                         <div className="col-sm-12 col-md-4 clients_img">
-                            <img src={zeabon} alt="client1" className="img-fluid" />
+                            <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591184390/portfolioProjectImages/Zea_Logo_swvfhu.png" alt="zeabon" className="img-fluid" />
                         </div>
                         <div className="col-sm-12 col-md-4 clients_img">
-                            <img src={angel} alt="client1" className="img-fluid" />
+                            <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591184393/portfolioProjectImages/client4_fzwjh2.png" alt="angel" className="img-fluid" />
                         </div> 
                     </div>
                     <div className="row">
-                        {/* <div className="col-sm-12 col-md-4 clients_img">
-                            <img src={quickseller} alt="client1" className="img-fluid" />
-                        </div> */}
                         <div className="col-sm-12 col-md-4 clients_img">
-                            <img src={esmart} alt="client1" className="img-fluid" />
+                            <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591184392/portfolioProjectImages/esmart_zvlaij.jpg" alt="esmart" className="img-fluid" />
                         </div>
                         <div className="col-sm-12 col-md-4 clients_img">
-                            <img src={diabetes} alt="client1" className="img-fluid" />
+                            <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591184392/portfolioProjectImages/new_gky96n.png" alt="diabetes" className="img-fluid" />
                         </div>
                     </div>
                 </div>

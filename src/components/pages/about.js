@@ -1,6 +1,5 @@
 import React from 'react'
 import '../../styles/about.css'
-import chinedu from '../../images/chinedu.jpg'
 import Footer from '../footer/footer'
 
 const About = () => {
@@ -14,7 +13,7 @@ const About = () => {
                         <h3 className="heading">About Me</h3>
                     </div>
                     <div className="col-sm-12 col-md-7">
-                        <img src={chinedu} width="100" height="100" className="chinedu_pic" alt="Chinedu Emesue" />
+                        <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591184445/portfolioProjectImages/chinedu_yrv960.jpg" width="100" height="100" className="chinedu_pic" alt="Chinedu Emesue" />
                         <p className="about_text">
                         I am a Full Stack Web Developer and an IT Engineer who’s passionate about helping organization leverage the internet to
                         grow their business and increase revenue. I have over 4 years experience working in the information technology and services industry with 
