@@ -6,7 +6,7 @@ const Home_footer = () => {
         <div className="footer home-footer">
             <div className="card">
                 <div className="container">
-                <h2 className="clients">Clients</h2>
+                <h2 className="clients">More Clients</h2>
                 <hr></hr>
                     <div className="row">
                         <div className="col-sm-12 col-md-4 clients_img">
