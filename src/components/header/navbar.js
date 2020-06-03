@@ -4,7 +4,7 @@ import '../../styles/navbar.css'
 
 const Navbar = () => {
     return (
-        <div>
+        <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light">
                 <Link className="navbar-brand nav_link_black" to="/">Chinedu Emesue</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
