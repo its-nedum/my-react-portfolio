@@ -57,6 +57,14 @@
     margin-bottom: 50px;
 }
 
+.project_description a {
+    color: #000000;
+}
+
+.project_description a:hover {
+    text-decoration: none;
+}
+
 /*--------------------------------------------------------------
 # Media Queries
 --------------------------------------------------------------*/

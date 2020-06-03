@@ -26,8 +26,10 @@ const Home = () => {
                             <img src='https://res.cloudinary.com/its-nedum/image/upload/v1591181517/portfolioProjectImages/christianconnect_parzs1.png' alt="christian_connect" className="img-fluid" />
                         </Link>
                         <div className="project_description">
-                            <h4>Christian Connect</h4>
-                            <p>Web Application</p>
+                            <Link to="/projects/christian_connect">  
+                                <h4>Christian Connect</h4>
+                                <p>Web Application</p>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-4">
@@ -35,8 +37,10 @@ const Home = () => {
                             <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591181527/portfolioProjectImages/esmartcardsport_pjt3r3.png" alt="esmartcards" className="img-fluid" />
                         </Link>
                         <div className="project_description">
+                        <Link to="/projects/esmartcards">
                             <h4>Esmartcards</h4>
                             <p>Web Application</p>
+                        </Link>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-4">
@@ -44,8 +48,10 @@ const Home = () => {
                             <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591181529/portfolioProjectImages/angelAcademyport_c68odb.png" alt="angel_academy" className="img-fluid" />
                         </Link>
                         <div className="project_description">
+                        <Link to="/projects/angel_academy">
                             <h4>Angel Academy</h4>
                             <p>Web Application</p>
+                        </Link>
                         </div>
                     </div> 
                 </div>
@@ -55,8 +61,10 @@ const Home = () => {
                             <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591181520/portfolioProjectImages/diabetes_jjxbg7.png" alt="kickout_diabetes" className="img-fluid" />
                         </Link>
                         <div className="project_description">
+                        <Link to="/projects/kickout_diabetes">
                             <h4>Kick Out Diabetes</h4>
                             <p>Web Application</p>
+                        </Link>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-4">
@@ -64,8 +72,10 @@ const Home = () => {
                             <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591181526/portfolioProjectImages/nsjsc_mk4p2l.png" alt="nsjsc" className="img-fluid" />
                         </Link>
                         <div className="project_description">
+                        <Link to="/projects/nsjsc">
                             <h4>NSJSC</h4>
                             <p>Web Application</p>
+                        </Link>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-4">
@@ -73,8 +83,10 @@ const Home = () => {
                             <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591181518/portfolioProjectImages/teamworkApp_vjtf0r.png" alt="teamwork" className="img-fluid" />
                         </Link>
                         <div className="project_description">
-                            <h4>Teamwork App</h4>
-                            <p>Web Application</p>
+                            <Link to="/projects/teamwork">
+                                <h4>Teamwork App</h4>
+                                <p>Web Application</p>
+                            </Link>
                         </div>
                     </div>
                 </div>
