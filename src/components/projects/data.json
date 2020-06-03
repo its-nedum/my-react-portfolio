@@ -119,7 +119,7 @@
         "tech": {
                 "frontend": "React.js, JavaScript"
             },
-        "url": "its-nedum-todolist.netlify.com/",
+        "url": "https://its-nedum-todolist.netlify.com/",
         "img": "https://res.cloudinary.com/its-nedum/image/upload/v1591181521/portfolioProjectImages/todo_gtkio1.png",
         "slug": "todo"
     },
