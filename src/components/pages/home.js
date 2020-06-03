@@ -2,12 +2,16 @@ import React from 'react'
 import '../../styles/home.css'
 import {Link} from 'react-router-dom'
 import Footer from '../footer/home_footer'
-
+import {Helmet} from 'react-helmet'
 
 const Home = () => {
     
     return (
         <div>
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>Chinedu Emesue</title>
+        </Helmet>
         <div className="banner_container">
             <div className="banner">
                 <div className="mx-auto" >

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Footer from '../footer/footer'
 import '../../styles/contact.css'
 import emailjs from 'emailjs-com'
+import {Helmet} from 'react-helmet'
 
 const Contact = () => {
     const [name, setName] = useState('');
@@ -65,6 +66,10 @@ const Contact = () => {
     
     return (
         <div className="contact_container">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Contact | Chinedu Emesue</title>
+            </Helmet>
             <div className="container cont_holder">
                 <div className="row">
                     <div className="col-sm-12 col-md-6">

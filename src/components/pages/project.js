@@ -1,10 +1,15 @@
 import React from 'react'
 import Footer from '../footer/footer'
 import {Link} from 'react-router-dom'
+import {Helmet} from 'react-helmet'
 
 const Project = () => {
     return (
         <div className="more_projects">
+           <Helmet>
+                <meta charSet="utf-8" />
+                <title>Projects | Chinedu Emesue</title>
+            </Helmet>
             <div className="container">
                 <h2>More Projects</h2>
                 <div className="row">

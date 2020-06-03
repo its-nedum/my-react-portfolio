@@ -2,6 +2,7 @@ import React from 'react'
 import '../../styles/projects.css'
 import Footer from '../footer/footer'
 import jsonData from './data.json'
+import {Helmet} from 'react-helmet'
 
 const SingleProject = (props) => {
     /*
@@ -16,6 +17,10 @@ const SingleProject = (props) => {
     
     return (
         <div className="single_project">
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>{project[0].title} | Chinedu Emesue</title>
+        </Helmet>
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12 col-md-6 ">

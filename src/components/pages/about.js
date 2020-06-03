@@ -1,12 +1,17 @@
 import React from 'react'
 import '../../styles/about.css'
 import Footer from '../footer/footer'
+import {Helmet} from 'react-helmet'
 
 const About = () => {
     
     return (
         <div>
-            {/* About me */}
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>About | Chinedu Emesue</title>
+            </Helmet>
+            
             <div className="aboutme_container container">
                 <div className="row">
                     <div className="col-sm-12 col-md-5">
