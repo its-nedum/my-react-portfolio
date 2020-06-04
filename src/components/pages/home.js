@@ -25,7 +25,7 @@ const Home = () => {
             <div className="container">
                 <h2 className="feat_project">Featured Projects</h2>
                 <div className="row">
-                    <div className="col-sm-12 col-md-4">
+                    <div className="col-sm-12 col-md-4 pro_mb">
                         <Link to="/projects/christian_connect">
                             <img src='https://res.cloudinary.com/its-nedum/image/upload/v1591181517/portfolioProjectImages/christianconnect_parzs1.png' alt="christian_connect" className="img-fluid" />
                         </Link>
@@ -36,7 +36,7 @@ const Home = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className="col-sm-12 col-md-4">
+                    <div className="col-sm-12 col-md-4 pro_mb">
                         <Link to="/projects/esmartcards">
                             <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591181527/portfolioProjectImages/esmartcardsport_pjt3r3.png" alt="esmartcards" className="img-fluid" />
                         </Link>
@@ -47,7 +47,7 @@ const Home = () => {
                         </Link>
                         </div>
                     </div>
-                    <div className="col-sm-12 col-md-4">
+                    <div className="col-sm-12 col-md-4 pro_mb">
                         <Link to="/projects/angel_academy">
                             <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591181529/portfolioProjectImages/angelAcademyport_c68odb.png" alt="angel_academy" className="img-fluid" />
                         </Link>
@@ -60,7 +60,7 @@ const Home = () => {
                     </div> 
                 </div>
                 <div className="row pro_sec2">
-                    <div className="col-sm-12 col-md-4">
+                    <div className="col-sm-12 col-md-4 pro_mb">
                         <Link to="/projects/kickout_diabetes">
                             <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591181520/portfolioProjectImages/diabetes_jjxbg7.png" alt="kickout_diabetes" className="img-fluid" />
                         </Link>
@@ -71,7 +71,7 @@ const Home = () => {
                         </Link>
                         </div>
                     </div>
-                    <div className="col-sm-12 col-md-4">
+                    <div className="col-sm-12 col-md-4 pro_mb">
                         <Link to="/projects/nsjsc">
                             <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591181526/portfolioProjectImages/nsjsc_mk4p2l.png" alt="nsjsc" className="img-fluid" />
                         </Link>
