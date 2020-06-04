@@ -11,6 +11,14 @@
     color: #000;
 }
 
+.about_text a{
+    border-bottom: 1px solid cornflowerblue;
+}
+.about_text a:hover{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
 .social_links {
     float: right;
     margin-bottom: 10px;

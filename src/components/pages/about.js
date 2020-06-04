@@ -2,6 +2,7 @@ import React from 'react'
 import '../../styles/about.css'
 import Footer from '../footer/footer'
 import {Helmet} from 'react-helmet'
+import {Link} from 'react-router-dom'
 
 const About = () => {
     
@@ -26,7 +27,7 @@ const About = () => {
                         <p className="about_text">I'm a critical thinker and a fast learner skilled in web and mobile application design and development using technologies such as JavaScript, React, Node.js, Express, 
                         React-Native, Redux, PHP, HTML, CSS and databases like MySQL, MongoDB and PostgreSQL.</p>
                         <p className="about_text">On my personal time when I am not coding, I enjoy watching Tv Series and visiting friends.</p>
-                        <p className="about_text">I'm always looking to work on fun projects and learning new skills. Feel free to reach out with work inquiries, side projects, or just to say hello!</p>
+                        <p className="about_text">I'm always looking to work on fun projects and learning new skills. Feel free to <Link to='/contact'>reach out</Link> with work inquiries, side projects, or just to say hello!</p>
                         
                         <div className="social_links">
                         <a href="https://github.com/its-nedum" target="_blank" rel="noopener noreferrer"><span className="fab fa-github"></span></a>
