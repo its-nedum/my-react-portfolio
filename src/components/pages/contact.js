@@ -19,6 +19,15 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault(); 
         // Form Validation
+        setBtnSuccess('')
+        setBtnError('')
+        if(!name && !email && !message){
+            setNameError('*Name is required')
+            setEmailError('*Enter a valid email')
+            setMessageError('*Message is blank')
+            return false;
+         }
+
         if(!name || name === " "){
            return setNameError('*Name is required')
         }else{
