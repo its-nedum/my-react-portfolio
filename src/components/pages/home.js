@@ -60,7 +60,9 @@ const Home = () => {
                             <p>Web Application</p>
                         </Link>
                         </div>
-                    </div>
+                    </div> 
+                </div>
+                <div className="row pro_sec2">
                     <div className="col-sm-12 col-md-4 pro_mb">
                         <Link to="/projects/angel_academy">
                             <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591181529/portfolioProjectImages/angelAcademyport_c68odb.png" alt="angel_academy" className="img-fluid" />
@@ -71,9 +73,7 @@ const Home = () => {
                             <p>Web Application</p>
                         </Link>
                         </div>
-                    </div> 
-                </div>
-                <div className="row pro_sec2">
+                    </div>
                     <div className="col-sm-12 col-md-4 pro_mb">
                         <Link to="/projects/kickout_diabetes">
                             <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591181520/portfolioProjectImages/diabetes_jjxbg7.png" alt="kickout_diabetes" className="img-fluid" />
