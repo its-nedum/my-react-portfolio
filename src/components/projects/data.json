@@ -133,5 +133,18 @@
         "url": "https://its-nedum.github.io/film-festival/",
         "img": "https://res.cloudinary.com/its-nedum/image/upload/v1591181524/portfolioProjectImages/watchitoutside_w4tiye.jpg",
         "slug": "watchit_outside"
+    },
+    {
+        "id": 12,
+        "title": "Fitness Tracker",
+        "description": "Move and Groove is a fitness tracker web app that allows users to sign up and log their fitness activities of different kinds.",
+        "tech": {
+                "frontend": "Ruby on Rails",
+                "backend": "Ruby on Rails",
+                "database": "Postgres"
+            },
+        "url": "https://move-nd-groove.herokuapp.com/",
+        "img": "https://res.cloudinary.com/its-nedum/image/upload/v1596788436/portfolioProjectImages/fitness_tracker_hc1ain.png",
+        "slug": "fitness_tracker"
     }
 ]
