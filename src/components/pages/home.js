@@ -28,6 +28,17 @@ const Home = () => {
             <div className="container">
                 <h2 className="feat_project">Featured Projects</h2>
                 <div className="row">
+                <div className="col-sm-12 col-md-4 pro_mb">
+                        <Link to="/projects/fitness_tracker">
+                            <img src='https://res.cloudinary.com/its-nedum/image/upload/v1596788436/portfolioProjectImages/fitness_tracker_hc1ain.png' alt="christian_connect" className="img-fluid" />
+                        </Link>
+                        <div className="project_description">
+                            <Link to="/projects/fitness_tracker">  
+                                <h4>Fitness Tracker</h4>
+                                <p>Web Application</p>
+                            </Link>
+                        </div>
+                    </div>
                     <div className="col-sm-12 col-md-4 pro_mb">
                         <Link to="/projects/christian_connect">
                             <img src='https://res.cloudinary.com/its-nedum/image/upload/v1591181517/portfolioProjectImages/christianconnect_parzs1.png' alt="christian_connect" className="img-fluid" />
