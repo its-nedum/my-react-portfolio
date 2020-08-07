@@ -38,14 +38,14 @@ const Project = () => {
                 </div>
                 <div className="row">
                     <div className="col-sm-12 col-md-4 pro_mb">
-                        <Link to="/projects/notify_me">
-                            <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591181517/portfolioProjectImages/notify-me_dh0s50.png" alt="notify_me" className="img-fluid" />
+                        <Link to="/projects/teamwork">
+                            <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591181518/portfolioProjectImages/teamworkApp_vjtf0r.png" alt="teamwork" className="img-fluid" />
                         </Link>
                         <div className="project_description">
-                        <Link to="/projects/notify_me">
-                            <h4>Notify Me</h4>
-                            <p>Web Application</p>
-                        </Link>
+                            <Link to="/projects/teamwork">
+                                <h4>Teamwork App</h4>
+                                <p>Web Application</p>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-4 pro_mb">

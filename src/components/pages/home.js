@@ -96,17 +96,6 @@ const Home = () => {
                         </Link>
                         </div>
                     </div>
-                    <div className="col-sm-12 col-md-4">
-                        <Link to="/projects/teamwork">
-                            <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591181518/portfolioProjectImages/teamworkApp_vjtf0r.png" alt="teamwork" className="img-fluid" />
-                        </Link>
-                        <div className="project_description">
-                            <Link to="/projects/teamwork">
-                                <h4>Teamwork App</h4>
-                                <p>Web Application</p>
-                            </Link>
-                        </div>
-                    </div>
                 </div>
                 <div className="row">
                     <div className="col-sm-12">
