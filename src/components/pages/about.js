@@ -24,8 +24,7 @@ const About = () => {
                         I am a Full Stack Web Developer and an IT Engineer who’s passionate about helping organization leverage the internet to
                         grow their business and increase revenue. I have over 4 years experience working in the information technology and services industry with 
                         vast knowledge of software development and its operations.</p>
-                        <p className="about_text">I'm a critical thinker and a fast learner skilled in web and mobile application design and development using technologies such as JavaScript, React, Node.js, Express, 
-                        React-Native, Redux, PHP, HTML, CSS and databases like MySQL, MongoDB and PostgreSQL.</p>
+                        <p className="about_text">I'm a critical thinker and a fast learner skilled in web and mobile application design and development using technologies such as JavaScript, React, Node.js, Express, Redux, Ruby, Ruby on Rails, PHP, HTML, CSS and databases like MySQL, MongoDB and PostgreSQL.</p>
                         <p className="about_text">On my personal time when I am not coding, I enjoy watching Tv Series and visiting friends.</p>
                         <p className="about_text">I'm always looking to work on fun projects and learning new skills. Feel free to <Link to='/contact'>reach out</Link> with work inquiries, side projects, or just to say hello!</p>
                         
