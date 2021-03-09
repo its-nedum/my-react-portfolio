@@ -3,7 +3,7 @@ import '../../styles/home.css'
 import {Link} from 'react-router-dom'
 import Footer from '../footer/home_footer'
 import {Helmet} from 'react-helmet'
-const resume = "https://res.cloudinary.com/its-nedum/image/upload/fl_attachment:chineduemesue/v1591284464/portfolioProjectImages/chineduemesue_kethes.pdf"
+const resume = "https://res.cloudinary.com/its-nedum/image/upload/v1615275075/portfolioProjectImages/Chinedu_Emesue_CV_qphvag.pdf"
 
 const Home = () => {
     
@@ -19,7 +19,7 @@ const Home = () => {
                     <img src="https://res.cloudinary.com/its-nedum/image/upload/v1591184445/portfolioProjectImages/chinedu_yrv960.jpg" alt="chinedu" className="chinedu_img" />
                 </div>
                <h1 className="intro_name">Hi, I'm Chinedu Emesue</h1>
-               <p className="intro_info">Full Stack Web Developer and IT Engineer</p>
+               <p className="intro_info">Full Stack Web Developer</p>
                <p><a className="btn resume" href={resume} rel="noopener noreferrer" download>Download Résumé</a>
                <Link className="btn btn-success" to='/contact'>Hire Me</Link></p>
             </div>
